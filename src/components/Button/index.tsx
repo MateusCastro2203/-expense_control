@@ -14,7 +14,7 @@ export const Button = ({onPressButton, title, ...rest}: ButtonProps) => {
       onPress={onPressButton}
       {...rest}
       style={styles.container}>
-      <Icon name="users" color="#000" size={70} />
+      <Icon name="user" color="#000" size={70} />
     </TouchableOpacity>
   );
 };
